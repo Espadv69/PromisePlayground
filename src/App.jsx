@@ -1,4 +1,4 @@
-import FunctionTester from './components/FunctionTester'
+import FunctionTester from './components/FunctionTester/FunctionTester'
 
 const App = () => {
   return (
