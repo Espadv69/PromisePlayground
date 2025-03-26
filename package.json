@@ -6,7 +6,8 @@
   "author": "AitorDev",
   "license": "MIT",
   "scripts": {
-    "prettier": "npx prettier --write ."
+    "prettier": "npx prettier --write .",
+    "dev": "vite"
   },
   "dependencies": {
     "react": "^19.0.0",
