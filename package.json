@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "AitorDev",
+  "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "prettier": "prettier --write .",
+    "dev": "npm run dev"
   },
   "dependencies": {
     "react": "^19.0.0",
