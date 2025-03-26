@@ -1,10 +1,15 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 import FunctionTester from './components/FunctionTester/FunctionTester'
 
 const App = () => {
   return (
-    <div className="app">
-      <FunctionTester />
-    </div>
+    <Router>
+      {/* Add navbar */}
+      <Routes>
+        <Route path="/" element={<FunctionTester />} />
+      </Routes>
+    </Router>
   )
 }
 
