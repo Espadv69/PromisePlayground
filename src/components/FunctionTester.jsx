@@ -12,6 +12,11 @@ const FunctionTester = () => {
       setResult('Data fetched without promise')
     }, 2000)
   }
+
+  // 🚀 Clear timeout
+  useEffect(() => {
+    return () => clearTimeout(timeoutId)
+  }, [])
 }
 
 export default FunctionTester
