@@ -10,21 +10,21 @@ A React project demonstrating the use of Promises. It includes three basic funct
 ## 📦 Installation
 
 1. Clone the repository:
-```sh
-  git clone https://github.com/Espadv69/PromisePlayground.git
-```
+  ```sh
+    git clone https://github.com/Espadv69/PromisePlayground.git
+  ```
 
 2. Navigate to the project folder:
-```sh
-  cd PromisePlayground
-```
+  ```sh
+    cd PromisePlayground
+  ```
 
 3. Install dependencies:
-```sh
-  npm install
-```
+  ```sh
+    npm install
+  ```
 
 4. Run the project:
-```sh
-  npm run dev
-```
+  ```sh
+    npm run dev
+  ```
