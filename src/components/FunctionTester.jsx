@@ -5,6 +5,13 @@ const FunctionTester = () => {
   const [result, setResult] = useState('')
 
   let timeoutId = null
+
+  // Function without promise ✅
+  const fetchDataWithoutPromise = () => {
+    timeoutId = setTimeout(() => {
+      setResult('Data fetched without promise')
+    }, 2000)
+  }
 }
 
 export default FunctionTester
