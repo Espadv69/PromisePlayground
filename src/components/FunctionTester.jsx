@@ -13,6 +13,15 @@ const FunctionTester = () => {
     }, 2000)
   }
 
+  // Function with promise ✅
+  const fetchDataWithPromise = () => {
+    new Promise((resolve) => {
+      timeoutId = setTimeout(() => {
+        resolve('Data fetched with promise')
+      }, 2000)
+    }).then((message) => setResult(message))
+  }
+
   // 🚀 Clear timeout
   useEffect(() => {
     return () => clearTimeout(timeoutId)
