@@ -26,6 +26,19 @@ const FunctionTester = () => {
   useEffect(() => {
     return () => clearTimeout(timeoutId)
   }, [])
+
+  return (
+    <section className="promises">
+      <h1>Promise Playground 🎭</h1>
+
+      <div className="buttons">
+        <button onClick={fetchDataWithoutPromise}>Without Promise</button>
+        <button onClick={fetchDataWithPromise}>With Promise</button>
+      </div>
+
+      <div className="result">{result}</div>
+    </section>
+  )
 }
 
 export default FunctionTester
