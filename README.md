@@ -1,12 +1,30 @@
-# React + Vite
+# PromisePlayground 🎭
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React project demonstrating the use of Promises. It includes three basic functions implemented both synchronously and asynchronously using Promises. Users can execute each function with or without Promises and see the results on the screen.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- ✅ Execute functions synchronously and asynchronously.
+- 🔄 Compare results between normal functions and Promises.
+- 🎨 Simple and interactive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+```sh
+  git clone https://github.com/Espadv69/PromisePlayground.git
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigate to the project folder:
+```sh
+  cd PromisePlayground
+```
+
+3. Install dependencies:
+```sh
+  npm install
+```
+
+4. Run the project:
+```sh
+  npm run dev
+```
