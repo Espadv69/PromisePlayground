@@ -5,7 +5,7 @@ const FunctionTimer = () => {
   const [message, setMessage] = useState('')
   let timeoutId = null
 
-  // Function without promises ✅
+  // ❌ Function without promise
   const startTimerWithoutPromise = (seconds) => {
     setMessage(`Waiting for ${seconds} seconds...`)
     timeoutId = setTimeout(() => {
