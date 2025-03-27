@@ -16,7 +16,7 @@ const FunctionFetch = () => {
     setMessage('Fetching data...')
 
     timeoutId = setTimeout(() => {
-      setMessage('Data fetched!')
+      setMessage(DATA.user + ' ' + DATA.lastname + ' ' + DATA.age)
     }, 2000)
   }
 }
