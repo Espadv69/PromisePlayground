@@ -52,5 +52,5 @@ This project is open-source and available under the
 
 ---
 
-## Image Test
-![Image test](./public/images/screenshot-Tester.png)
+<!-- ## Image Test
+![Image test](./public/images/screenshot-Tester.png) -->
