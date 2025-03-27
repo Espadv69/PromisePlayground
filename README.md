@@ -2,6 +2,9 @@
 
 A React project demonstrating the use of Promises. It includes three basic functions implemented both synchronously and asynchronously using Promises. Users can execute each function with or without Promises and see the results on the screen.
 
+## Live Demo
+[▶ Live Demo](https://promiseplayground.netlify.app/)
+
 ## 🚀 Features
 
 - ✅ Execute functions synchronously and asynchronously.
