@@ -7,6 +7,10 @@ const NavBar = () => {
       <Link to="/" className="nav-link">
         FunctionTester
       </Link>
+
+      <Link to="/timer" className="nav-link">
+        FunctionTimer
+      </Link>
     </nav>
   )
 }
