@@ -30,6 +30,7 @@ const FunctionTester = () => {
   return (
     <section className="promises-container">
       <h1 className="title">Promise Playground 🎭</h1>
+      <h4>Tester 🧪</h4>
 
       <div className="buttons-container">
         <button className="action-btn" onClick={fetchDataWithoutPromise}>
