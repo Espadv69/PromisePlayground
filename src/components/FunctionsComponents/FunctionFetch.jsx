@@ -6,7 +6,13 @@ const FunctionFetch = () => {
   let timeoutId = null
 
   // Function without promise ✅
-  const fetchDataWithoutPromise = () => {}
+  const fetchDataWithoutPromise = () => {
+    setMessage('Fetching data...')
+
+    timeoutId = setTimeout(() => {
+      setMessage('Data fetched!')
+    }, 2000)
+  }
 }
 
 export default FunctionFetch
