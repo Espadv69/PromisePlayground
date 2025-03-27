@@ -61,7 +61,7 @@ This project is open-source and available under the
 
 [Live Demo](https://promiseplayground.netlify.app/)
 
-## Screenshots
+## 📷 Screenshots
 
 ![Screenshot Function Tester](./public/images/screenshot-Tester.png)
 
