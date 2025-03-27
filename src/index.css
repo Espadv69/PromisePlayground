@@ -1,5 +1,6 @@
 :root {
-  color-scheme: light dark;
+  --bg: #121212;
+  --text: #ffffff;
   --font: 'Roboto Variable', sans-serif;
 }
 
@@ -12,20 +13,23 @@
 }
 
 body {
+  color: var(--text);
+  background-color: var(--bg);
   font-family: var(--font);
-  scrollbar-gutter: stable;
+
+  overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
-  width: 5px;
+  width: 8px;
 }
 
 body::-webkit-scrollbar-track {
-  background: #282a36;
+  background: #0f0d1d;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #6272a4;
+  background-color: #3c4665;
   border-radius: 5px;
   border: 2px solid rgba(255, 255, 255, 0.359);
 }
