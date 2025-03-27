@@ -13,7 +13,7 @@ const FunctionTimer = () => {
     }, seconds * 1000)
   }
 
-  // Function with promises ✅
+  // ✅ Function with promise
   const startTimerWithPromise = (seconds) => {
     setMessage(`Waiting for ${seconds} seconds...`)
 
