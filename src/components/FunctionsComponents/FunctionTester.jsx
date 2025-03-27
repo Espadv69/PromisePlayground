@@ -13,7 +13,7 @@ const FunctionTester = () => {
     }, 2000)
   }
 
-  // Function with promise ✅
+  // ✅ Function with promise
   const fetchDataWithPromise = () => {
     new Promise((resolve) => {
       timeoutId = setTimeout(() => {
