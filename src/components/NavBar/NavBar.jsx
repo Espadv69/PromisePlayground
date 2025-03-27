@@ -11,6 +11,10 @@ const NavBar = () => {
       <Link to="/timer" className="nav-link">
         FunctionTimer
       </Link>
+
+      <Link to="/random" className="nav-link">
+        FunctionRandom
+      </Link>
     </nav>
   )
 }
