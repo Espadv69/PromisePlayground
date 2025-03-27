@@ -13,4 +13,19 @@
 
 body {
   font-family: var(--font);
+  scrollbar-gutter: stable;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #282a36;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6272a4;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.359);
 }
