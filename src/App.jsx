@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import NavBar from './components/NavBar/NavBar'
-import FunctionTester from './components/FunctionTester/FunctionTester'
-import FunctionTimer from './components/FunctionTimer/FunctionTimer'
+import FunctionTester from './components/FunctionsComponents/FunctionTester'
+import FunctionTimer from './components/FunctionsComponents/FunctionTimer'
 
 const App = () => {
   return (
