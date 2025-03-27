@@ -54,5 +54,7 @@ This project is open-source and available under the
 
 ## Screenshots
 ![Screenshot Function Tester](./public/images/screenshot-Tester.png)
+---
 ![Screenshot Function Timer](./public/images/screenshot-timer.png)
+---
 ![Screenshot Function Random](./public/images/screenshot-random.png)
