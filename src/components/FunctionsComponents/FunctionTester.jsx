@@ -6,7 +6,7 @@ const FunctionTester = () => {
 
   let timeoutId = null
 
-  // Function without promise ✅
+  // ❌ Function without promise
   const fetchDataWithoutPromise = () => {
     timeoutId = setTimeout(() => {
       setResult('Data fetched without promise')
