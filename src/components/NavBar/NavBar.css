@@ -25,3 +25,11 @@
 .nav-link:hover {
   background: #3c4665;
 }
+
+@media (max-width: 600px) {
+  .nav {
+    font-size: .9rem;
+    padding: .5rem 1rem;
+    gap: .5rem;
+  }
+}
