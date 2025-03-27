@@ -14,6 +14,18 @@ const FunctionFetch = () => {
     }, 2000)
   }
 
+  // ✅ Function with promise
+  const generateRandomNumberWithPromise = () => {
+    setMessage('Generating random number with promise...')
+
+    new Promise((resolve) => {
+      timeoutId = setTimeout(() => {
+        const randomNumber = Math.floor(Math.random() * 100) + 1
+        resolve(`Random number with promise: ${randomNumber}`)
+      }, 2000)
+    }).then((message) => setMessage(message))
+  }
+
   // 🚀 Clear Timeout
   useEffect(() => {
     return () => clearTimeout(timeoutId)
@@ -27,11 +39,14 @@ const FunctionFetch = () => {
       <div className="buttons-container">
         <button
           className="action-btn"
-          onClick={() => generateRandomNumberWithoutPromise()}
+          onClick={generateRandomNumberWithoutPromise}
         >
           Without Promise
         </button>
-        <button className="action-btn" onClick="">
+        <button
+          className="action-btn"
+          onClick={generateRandomNumberWithPromise}
+        >
           With Promise
         </button>
       </div>
