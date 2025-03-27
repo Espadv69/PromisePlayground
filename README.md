@@ -57,9 +57,7 @@ This project is open-source and available under the
 
 ---
 
-## ▶ Live Demo
-
-[Live Demo](https://promiseplayground.netlify.app/)
+## [▶ Live Demo](https://promiseplayground.netlify.app/)
 
 ## 📷 Screenshots
 
