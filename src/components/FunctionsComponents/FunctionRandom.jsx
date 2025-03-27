@@ -14,6 +14,11 @@ const FunctionFetch = () => {
     }, 2000)
   }
 
+  // 🚀 Clear Timeout
+  useEffect(() => {
+    return () => clearTimeout(timeoutId)
+  }, [])
+
   return (
     <section className="promises-container">
       <h1 className="title">Promise Playground 🎭</h1>
